@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "name": "Old Fashioned",
+        "ingredients": [
+            "2 ounces bourbon",
+            "1 ounce simple syrup",
+            "2 dashes angostura bitters",
+            "2 dashes orange bitters"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Strain into rocks glass over a large ice cube"
+        ],
+        "tags": ["whiskey", "bourbon"]
+    },
+    {
+        "id": "x",
+        "name": "I'm on Fire",
+        "ingredients": [
+            "2 dashes Cholula hot sauce",
+            "1 ounce pineapple juice",
+            "1/2 ounce lime juice",
+            "3/4 ounce honey syrup (1:1, honey:water)",
+            "2 ounces mezcal",
+            "Garnish: ancho chili powder"
+        ],
+        "directions": [
+            "Combine all ingredients in a mixing tin, shake with ice",
+            "Strain into a chilled rocks glass over large ice cube",
+            "Garnish with ancho chili powder"
+        ],
+        "tags": ["tequila", "mezcal"],
+        "link": "https://punchdrink.com/recipes/im-on-fire/"
+    }
+]
