@@ -15,6 +15,7 @@ export interface Recipe {
     name: string;
     ingredients: string[];
     directions: string[];
+    base: "gin" | "rum" | "tequila" | "whiskey" | "vodka" | "other";
     link?: string;
     tags?: string[];
 }

@@ -12,7 +12,7 @@
             "Combine ingredients in shaker with ice, stir until chilled",
             "Strain into rocks glass over a large ice cube"
         ],
-        "tags": ["whiskey", "bourbon"]
+        "base": "whiskey"
     },
     {
         "id": "x",
@@ -30,7 +30,7 @@
             "Strain into a chilled rocks glass over large ice cube",
             "Garnish with ancho chili powder"
         ],
-        "tags": ["tequila", "mezcal"],
+        "base": "tequila",
         "link": "https://punchdrink.com/recipes/im-on-fire/"
     }
 ]
