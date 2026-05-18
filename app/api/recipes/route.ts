@@ -1,9 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { Recipe } from "../../lib/definitions";
 
 import { NextResponse } from "next/server";
 
-//get all recipes
 export async function GET(request: Request) {
     //point to the recipe.json file
     const filePath = path.join(process.cwd(), "data", "recipes.json");
@@ -15,14 +15,21 @@ export async function GET(request: Request) {
     //extract search query from request
     const { searchParams } = new URL(request.url);
     const query = searchParams.get("query");
-    //if no search query, return nothing
-    if (!query) {
+    const baseString = searchParams.get("base");
+    const base = baseString ? baseString.split("-") : [];
+
+    //if no search query or base filtering, return everything
+    if (!query && !baseString) {
         return NextResponse.json(recipes);
-    } else {
-        //search for recipes that match the query
-        const filteredRecipes = recipes.filter((recipe: any) => {
-            return recipe.name.toLowerCase().includes(query.toLowerCase());
-        });
-        return NextResponse.json(filteredRecipes);
     }
+    //search for recipes that match the query and base requested
+    const filteredRecipes = recipes.filter((recipe: Recipe) => {
+        const hasBase =
+            base.length > 0 ? base.includes(recipe.base.toLowerCase()) : true;
+        const hasQuery = query
+            ? recipe.name.toLowerCase().includes(query.toLowerCase())
+            : true;
+        return hasQuery && hasBase;
+    });
+    return NextResponse.json(filteredRecipes);
 }
