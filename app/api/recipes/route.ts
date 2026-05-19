@@ -4,6 +4,9 @@ import { Recipe } from "../../lib/definitions";
 
 import { NextResponse } from "next/server";
 
+//search params:
+//query: string of the search query
+//base: string of the base to filter by, separated by dashes
 export async function GET(request: Request) {
     //point to the recipe.json file
     const filePath = path.join(process.cwd(), "data", "recipes.json");
@@ -31,5 +34,7 @@ export async function GET(request: Request) {
             : true;
         return hasQuery && hasBase;
     });
+
+    //need to next apply pagination
     return NextResponse.json(filteredRecipes);
 }

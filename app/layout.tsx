@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
 import Link from "next/link";
+import { TanstackProvider } from "@/components/providers/tanstack-provider";
 
 import "./globals.css";
 
@@ -50,7 +51,7 @@ export default function RootLayout({
                         </div>
                         <ModeToggle />
                     </div>
-                    {children}
+                    <TanstackProvider>{children}</TanstackProvider>
                 </ThemeProvider>
             </body>
         </html>

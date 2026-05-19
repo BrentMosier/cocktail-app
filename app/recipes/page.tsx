@@ -1,25 +1,29 @@
+"use client";
+
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Recipe } from "../lib/definitions";
 import RecipeSearch from "../../components/recipe-search";
-
-async function getRecipes() {
-    const res = await fetch("http://localhost:3000/api/recipes");
-    return res.json();
-}
+import { useRecipes } from "../../server/recipes";
+import { useState } from "react";
+import Link from "next/link";
 
 //options for how to handle the app:
-//1. client side: keep this page async to search for all recipes, then pass that as a prop to a component that handles the recipe search and display all on the client. Keeps the search logic on the client side.
-//2. server side: keep this page async for each recipe search, then use a server action to handle the search logic on the server side. Involves updating the server state on api calls, likely using tanstack query.
-export default async function Page() {
-    const cocktails: Recipe[] = await getRecipes();
+export default function Page() {
+    const [query, setQuery] = useState("");
+    const [selectedBase, setSelectedBase] = useState<string[]>([]);
 
-    // This is your Server Action
     async function handleSearch(query: string) {
-        "use server";
-        console.log("Server received query:", query);
-        // Perform database operations or mutate server state here
-        // use query string to search recipes
+        setQuery(query);
     }
+
+    //add conditional rendering for when isLoading and error are true
+    const { data, isLoading, error } = useRecipes({
+        limit: 10,
+        page: 1,
+        query: query,
+        base: selectedBase,
+    });
+    const cocktails: Recipe[] = data ?? [];
 
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -29,9 +33,12 @@ export default async function Page() {
                     <ToggleGroup
                         className="mt-4 flex justify-between w-full"
                         size="lg"
-                        defaultValue={["whiskey"]}
+                        defaultValue={[]}
                         variant="outline"
                         spacing={2}
+                        multiple
+                        value={selectedBase}
+                        onValueChange={setSelectedBase}
                     >
                         <ToggleGroupItem value="gin" aria-label="Toggle gin">
                             Gin
@@ -64,30 +71,36 @@ export default async function Page() {
                             Other
                         </ToggleGroupItem>
                     </ToggleGroup>
+                    Selected Base: {selectedBase.join(", ")}
                 </div>
                 <div className="w-full">
                     {cocktails.map((cocktail) => (
-                        <div
+                        <Link
                             key={cocktail.id}
-                            className="border border-cyan-500 rounded-lg group p-4 my-2 relative"
+                            href={`/recipes/${cocktail.id}`}
                         >
-                            <div className="flex justify-between items-center group-hover:brightness-50">
-                                <h2 className="">{cocktail.name}</h2>
-                                <div className="bg-secondary p-1 rounded">
-                                    {cocktail.base}
+                            <div className="border border-cyan-500 rounded-lg group p-4 my-2 relative overflow-hidden h-20">
+                                <div className="flex justify-between items-center group-hover:brightness-50">
+                                    <h2 className="">{cocktail.name}</h2>
+                                    <div className="bg-secondary p-1 rounded">
+                                        {cocktail.base}
+                                    </div>
+                                </div>
+                                <div
+                                    className="invisible group-hover:visible absolute inset-0 flex flex-col pl-[38%] opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100
+                                               group-hover:animate-[scrollUp_6s_linear_infinite_0.5s]"
+                                >
+                                    {cocktail.ingredients.map((ingredient) => (
+                                        <span
+                                            className="text-left"
+                                            key={ingredient}
+                                        >
+                                            {ingredient}
+                                        </span>
+                                    ))}
                                 </div>
                             </div>
-                            <div className="invisible group-hover:visible absolute inset-0 flex flex-col justify-start items-center group-hover:-translate-y-12 transition-transform duration-300 ease-linear">
-                                {cocktail.ingredients.map((ingredient) => (
-                                    <span
-                                        className="justify-self-start"
-                                        key={ingredient}
-                                    >
-                                        {ingredient}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </main>

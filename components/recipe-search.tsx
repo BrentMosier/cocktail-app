@@ -12,7 +12,6 @@ export default function RecipeSearch({
     const debouncedSearchTerm = useDebounce(searchTerm, 300);
 
     useEffect(() => {
-        console.log("useEffect triggered", debouncedSearchTerm);
         onSearchAction(debouncedSearchTerm);
     }, [debouncedSearchTerm, onSearchAction]);
 
