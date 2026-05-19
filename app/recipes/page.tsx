@@ -71,7 +71,6 @@ export default function Page() {
                             Other
                         </ToggleGroupItem>
                     </ToggleGroup>
-                    Selected Base: {selectedBase.join(", ")}
                 </div>
                 <div className="w-full">
                     {cocktails.map((cocktail) => (

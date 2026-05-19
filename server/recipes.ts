@@ -9,6 +9,7 @@ interface RecipeParams {
     base?: string[];
 }
 
+//multiple recipe search
 const fetchRecipes = async ({
     limit = 10,
     page = 1,
@@ -32,5 +33,19 @@ export const useRecipes = ({
     return useQuery({
         queryKey: ["recipes", limit, page, query, base],
         queryFn: () => fetchRecipes({ limit, page, query, base }),
+    });
+};
+
+//single recipe search
+const fetchRecipe = async (id: string): Promise<Recipe> => {
+    const response = await fetch(`http://localhost:3000/api/recipes/${id}`);
+    const data = await response.json();
+    return data as Recipe;
+};
+
+export const useRecipe = (id: string) => {
+    return useQuery({
+        queryKey: ["recipe", id],
+        queryFn: () => fetchRecipe(id),
     });
 };
