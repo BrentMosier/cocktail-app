@@ -10,7 +10,7 @@ interface RecipeParams {
 }
 
 //multiple recipe search
-const fetchRecipes = async ({
+export const fetchRecipes = async ({
     limit = 10,
     page = 1,
     query = "",
