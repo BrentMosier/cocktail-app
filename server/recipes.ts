@@ -37,7 +37,7 @@ export const useRecipes = ({
 };
 
 //single recipe search
-const fetchRecipe = async (id: string): Promise<Recipe> => {
+export const fetchRecipe = async (id: string): Promise<Recipe> => {
     const response = await fetch(`http://localhost:3000/api/recipes/${id}`);
     const data = await response.json();
     return data as Recipe;
