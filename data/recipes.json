@@ -436,5 +436,128 @@
             "Garnish with grapefruit peel"
         ],
         "base": "tequila"
+    },
+    {
+        "id": "1331b84c-5e0d-432a-bb97-36871352fe31",
+        "name": "Bees Knees",
+        "ingredients": [
+            "2 ounces gin",
+            "3/4 ounce lemon juice",
+            "1/2 ounce honey syrup"
+        ],
+        "directions": [
+            "Add ingredients to cocktail shaker with ice and shake well",
+            "Pour into glass over ice"
+        ],
+        "base": "gin",
+        "link": "https://www.foodandwine.com/recipes/bees-knees"
+    },
+    {
+        "id": "5a69f853-7571-4284-a5aa-6940f226205b",
+        "name": "Lavender Love Cocktail",
+        "ingredients": [
+            "2 ounces gin",
+            "3/4 ounce lemon juice",
+            "1/2 ounce lavender syrup",
+            "Dash vanilla extract",
+            "1/4 cup seltzer"
+        ],
+        "directions": [
+            "Add gin, lemon juice, lavender syrup, vanilla extract and ice to cocktail shaker, shake until chilled",
+            "Strain into cocktail glass, top with seltzer"
+        ],
+        "base": "gin",
+        "link": "https://thesocialsipper.com/lavender-love-cocktail/"
+    },
+    {
+        "id": "909bf983-c134-4562-a797-18d47996e9c3",
+        "name": "Lavender Tom Collins",
+        "ingredients": [
+            "2 ounces gin",
+            "1 ounce lemon juice",
+            "1/2 ounce lavender syrup",
+            "Seltzer"
+        ],
+        "directions": [
+            "Add gin, lemon juice, and syrup to a tall glass",
+            "Fill glass with ice, top with seltzer, stir"
+        ],
+        "base": "gin"
+    },
+    {
+        "id": "a59ff793-8080-4507-9fd3-22fc4af010f0",
+        "name": "Gin Buck",
+        "ingredients": ["2 ounces gin", "Ginger ale", "1/2 ounce lemon juice"],
+        "directions": [
+            "Add gin and lemon juice to a tall glass",
+            "Fill glass with ice, top with ginger ale, stir"
+        ],
+        "base": "gin"
+    },
+    {
+        "id": "ff8b85fb-34eb-449b-b692-29482014568d",
+        "name": "Sunflower",
+        "ingredients": [
+            "3/4 gin",
+            "3/4 Cointreau",
+            "3/4 St. Germaine",
+            "3/4 lemon juice",
+            "absinthe-rinsed glass"
+        ],
+        "directions": [
+            "Add gin, cointreau, st germaine, lemon juice to shaker with ice. Shake.",
+            "Rinse cocktail glass with absinthe, strain cocktail into glass"
+        ],
+        "base": "gin"
+    },
+    {
+        "id": "8afb27a0-010d-47b0-9611-3b1e2847ff33",
+        "name": "Bramble",
+        "ingredients": [
+            "2 oz gin",
+            "1 oz lemon juice",
+            "1/2 oz simple syrup",
+            "1/2 oz Chambord"
+        ],
+        "directions": [
+            "Add gin, lemon juice and simple syrup to a shaker with ice. Shake until chilled",
+            "Strain cocktail into glass over crushed ice",
+            "Slowly pour the Chambord over the top"
+        ],
+        "base": "gin"
+    },
+    {
+        "id": "9093a69b-ea35-477f-95a4-8debe35374a6",
+        "name": "The Goldwyn Follies",
+        "ingredients": [
+            "1 1/2 oz gin",
+            "1 oz apple juice",
+            "1 oz cranberry juice",
+            "1 oz brewed black tea, chilled",
+            "1/2 oz cinnamon syrup"
+        ],
+        "directions": [
+            "Add all ingredients to a shaker with ice, shake until chilled",
+            "Strain into a chilled cocktail glass or coupe glass",
+            "Garnish with 2 thin apple slices"
+        ],
+        "base": "gin",
+        "link": "https://www.liquor.com/recipes/the-goldwyn-follies/"
+    },
+    {
+        "id": "a4237440-c160-44d5-8c2b-0b8bc19dc0b6",
+        "name": "Army & Navy",
+        "ingredients": [
+            "2 oz gin",
+            "1 oz lemon juice",
+            "3/4 oz orgeat",
+            "1 dash Angostura bitters"
+        ],
+        "directions": [
+            "Add all ingredients to a shaker with ice, shake until chilled",
+            "Strain into a chilled cocktail glass or coupe glass"
+        ],
+        "base": "gin",
+        "link": "https://www.liquor.com/army-navy-cocktail-recipe-5225039"
     }
 ]
