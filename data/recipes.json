@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "ac5be986-30a9-424d-ab8b-cb57b1de585f",
         "name": "Old Fashioned",
         "ingredients": [
             "2 ounces bourbon",
@@ -15,7 +15,260 @@
         "base": "whiskey"
     },
     {
-        "id": "x",
+        "id": "01269507-ebcf-4153-a69f-0e97db616e02",
+        "name": "Maple Bourbon Sour",
+        "ingredients": [
+            "2 ounces bourbon",
+            "1 ounce maple syrup",
+            "1 ounce lemon juice"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Strain into rocks glass over a large ice cube"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "31fe69a9-f938-4b26-a87d-ba566b9dd6ee",
+        "name": "Whiskey Sour",
+        "ingredients": [
+            "2 ounces bourbon",
+            "3/4 ounce lemon juice, freshly squeezed",
+            "1/2 ounce simple syrup",
+            "1/2 ounce egg white (optional)",
+            "Garnish: Angostura bitters"
+        ],
+        "directions": [
+            "Add bourbon, lemon juice, simple syrup, and egg white to a shaker, dry shake (without ice) 30 seconds",
+            "Add ice and shake again for 15-20 seconds",
+            "Strain into a rocks glass over ice",
+            "Garnish with 3-4 drops of Angostura bitters"
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/whiskey-sour/"
+    },
+    {
+        "id": "43aa783f-174b-4acc-a7c5-366166a26d15",
+        "name": "Amaretto Sour",
+        "ingredients": [
+            "1 1/2 ounces amaretto liqueur",
+            "3/4 ounce cask-proof bourbon",
+            "1 ounce lemon juice, freshly squeezed",
+            "1/2 oz simple syrup",
+            "1 egg white",
+            "Garnish: lemon twist",
+            "Garnish: 2 brandied cherries"
+        ],
+        "directions": [
+            "Add amaretto, bourbon, lemon juice, simple syrup and egg white to a shaker and dry-shake (no ice) for 15 seconds.",
+            "Add ice and shake again until well-chilled.",
+            "Strain into a rocks glass over fresh ice.",
+            "Garnish with a lemon twist and 2 skewered brandied cherries."
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/amaretto-sour/"
+    },
+    {
+        "id": "f97a8739-b06f-4588-ac91-24e953f16a3d",
+        "name": "Gold Rush",
+        "ingredients": [
+            "2 ounces bourbon",
+            "3/4 ounce lemon juice",
+            "3/4 ounce honey syrup"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Strain into rocks glass over a large ice cube"
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/gold-rush/"
+    },
+    {
+        "id": "594e23cb-e172-42fc-97c7-d78c127722d8",
+        "name": "Brown Derby",
+        "ingredients": [
+            "2 ounces bourbon",
+            "1 ounce grapefruit juice",
+            "1/2 ounce honey syrup"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Fine strain into rocks glass over a large ice cube"
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/brown-derby/"
+    },
+    {
+        "id": "86844906-3bb1-4426-b90e-adf9cd30e54f",
+        "name": "Spiced Manhattan",
+        "ingredients": [
+            "1 1/2 ounce apple cinnamon bourbon",
+            "1/2 sweet vermouth",
+            "2-4 dashes Angostura bitters",
+            "1 luxardo cherry",
+            "1 cinnamon stick"
+        ],
+        "directions": [
+            "Add the bourbon, vermouth, and bitters in a stirring glass with ice. Stir gently.",
+            "Strain into martini or coupe glass",
+            "Garnish with cinnamon stick and cherry"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "2d8a7549-f8b3-4edb-bcce-ccf1e86e57ca",
+        "name": "Skeleton Key",
+        "ingredients": [
+            "1 1/4 oz bourbon",
+            "3/4 oz St. Germain elderflower liqueur",
+            "1/2 oz lemon juice",
+            "3-5 oz ginger beer",
+            "8 dashes angostura bitters"
+        ],
+        "directions": [
+            "Add bourbon, St. Germain, and lemon juice to glass with ice",
+            "Top with ginger beer",
+            "Top with bitters"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "4a102e83-02e7-4d5a-8272-51eba8091a7f",
+        "name": "Autumn Rickey",
+        "ingredients": [
+            "1 1/2 oz bourbon",
+            "1 oz lime juice",
+            "1/2 oz maple syrup",
+            "2 lime wheels",
+            "Club soda"
+        ],
+        "directions": [
+            "Fill a highball glass with ice and add the lime wheels",
+            "Add the maple syrup, lime juice, and bourbon",
+            "Top with club soda, stir to combine"
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/autumn-rickey/"
+    },
+    {
+        "id": "d6edd9b4-05ba-4d0e-a58f-25349d058d03",
+        "name": "The Tender Knob",
+        "ingredients": [
+            "1 1/2 oz bourbon",
+            "2 ounces hard apple cider",
+            "3/4 oz agave nectar",
+            "1 pinch cinnamon",
+            "2 thin apple slices (1/8 inch wide)"
+        ],
+        "directions": [
+            "In a shaker, muddle 1 apple slice",
+            "Add the bourbon, apple cider, agave nectar, and cinnamon to a shaker with ice. Shake until well chilled",
+            "Strain into a glass with fresh ice (Do not double strain, you want some apple bits)",
+            "Garnish with the remaining apple slice"
+        ],
+        "base": "whiskey",
+        "link": "https://www.liquor.com/recipes/the-tender-knob/"
+    },
+    {
+        "id": "a9794810-1624-4ab3-a120-995c0de867eb",
+        "name": "Raspberry Truffle Smash",
+        "ingredients": [
+            "2 oz bourbon",
+            "1 oz raspberry jam",
+            "1 oz triple sec",
+            "1/2 oz simple syrup (adjust based on jam sweetness)",
+            "4 dashes chocolate bitters"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, shake until chilled",
+            "Strain into rocks glass"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "40413194-3110-407a-9233-80812137b47a",
+        "name": "Sazerac",
+        "ingredients": [
+            "2 oz Rye Whiskey",
+            "1 sugar cube (or .25 oz simple syrup)",
+            "4-6 dashes Peychaud’s bitters",
+            "Absinthe (for glass rinse)",
+            "Lemon peel or twist (garnish)"
+        ],
+        "directions": [
+            "Add sugar, bitters, and whiskey to a mixing glass. If using a sugar cube, muddle and break up the sugar",
+            "Add ice, stir for 30 seconds",
+            "Pour small amount of absinthe to drinking glass, run around the inside to coat, pour out extra",
+            "Strain mix into drinking glass without ice",
+            "Garnish with lemon peel"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "abc88118-1be8-479f-b414-cdbb80a9e50c",
+        "name": "Cold Brew Old Fashioned",
+        "ingredients": [
+            "1 oz Coffee Liquor",
+            "1 oz Rye Whiskey",
+            "2 dashes orange bitters"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Strain into rocks glass over a large ice cube"
+        ],
+        "base": "whiskey",
+        "link": "https://www.mrblack.co/us/cocktails/cold-brew-old-fashioned"
+    },
+    {
+        "id": "dd3c8d9a-284f-48da-a58f-94faeae3ae5e",
+        "name": "S'mores Old Fashioned",
+        "ingredients": [
+            "2 ounces rye",
+            ".75 ounce marshmallow simple syrup",
+            "4 dashes chocolate bitters"
+        ],
+        "directions": [
+            "Combine ingredients in shaker with ice, stir until chilled",
+            "Strain into rocks glass over a large ice cube"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "0282ea41-0501-42cd-be5e-6309eed67ee7",
+        "name": "Apple Cider Whiskey Sour",
+        "ingredients": [
+            "2 oz Rye Whiskey",
+            "1 oz apple cider",
+            "1/2 oz Maple syrup",
+            "3/4 oz lemon juice",
+            "1 egg white"
+        ],
+        "directions": [
+            "Add ingredients to shaker, dry shake 10 seconds",
+            "Add ice, shake another 10 seconds to chill",
+            "Strain into glass with giant ice cube"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "43a830a2-823e-4b42-88ae-9ef0b4aaf21b",
+        "name": "Nuts and Berries",
+        "ingredients": [
+            "1 1/2 oz rye whiskey",
+            "1/2 oz Chambord",
+            "1/2 oz amaretto",
+            "1/4 oz honey syrup",
+            "A few dashes of chocolate or walnut bitters",
+            "Pinch of salt"
+        ],
+        "directions": [
+            "Add ingredients to glass with ice, stir until chilled",
+            "Strain into glass with large ice cube"
+        ],
+        "base": "whiskey"
+    },
+    {
+        "id": "4ade3f20-2609-44c3-84e1-7cbd8b52a345",
         "name": "I'm on Fire",
         "ingredients": [
             "2 dashes Cholula hot sauce",
@@ -32,5 +285,156 @@
         ],
         "base": "tequila",
         "link": "https://punchdrink.com/recipes/im-on-fire/"
+    },
+    {
+        "id": "3dc26e12-a765-49c3-82cd-4c1460e5627b",
+        "name": "Oaxaca Old Fashioned",
+        "ingredients": [
+            "1 1/2 ounces El Tesoro reposado tequila",
+            "1/2 ounce Del Maguey San Luis Del Rio mezcal",
+            "2 dashes Angostura bitters",
+            "2 dashes orange bitters",
+            "1 barspoon agave nectar",
+            "Garnish: flamed orange twist"
+        ],
+        "directions": [
+            "Combine all the ingredients except the orange twist in an Old-Fashioned glass filled with one large ice cube.",
+            "Stir until chilled.",
+            "Top with a flamed orange twist, then drop the twist into the drink."
+        ],
+        "base": "tequila",
+        "link": "https://punchdrink.com/recipes/oaxaca-old-fashioned/"
+    },
+    {
+        "id": "3953cb59-0fed-402c-8bf1-0acbb1dde717",
+        "name": "Mezcal Paloma",
+        "ingredients": [
+            "2 ounces mezcal",
+            "1/2 ounce lime juice, freshly squeezed",
+            "4 ounces grapefruit soda, to top ",
+            "Tajín, for rim (salt is fine)",
+            "Garnish: lime wedge"
+        ],
+        "directions": [
+            "Rub a lime wedge around the edge of a highball glass, and dip the rim in salt and Tajín (optional).",
+            "Add the tequila and lime juice to the glass, and fill with ice.",
+            "Top with grapefruit soda, and stir briefly and gently to combine.",
+            "Garnish with a lime wedge."
+        ],
+        "base": "tequila",
+        "link": "https://www.liquor.com/mezcal-paloma-cocktail-recipe-7484747"
+    },
+    {
+        "id": "922e47a4-51af-4dd5-af99-8c69aa01d744",
+        "name": "Mezcal Margarita",
+        "ingredients": [
+            "1 1/2 ounces mezcal",
+            "3/4 ounce fresh lime juice, peel reserved",
+            "3/4 ounce triple sec",
+            "Salt, for rimming glasses",
+            "Lime wedge, for garnish"
+        ],
+        "directions": [
+            "Combine mezcal, lime juice, triple sec, and ice  in a cocktail shaker. Shake until frosty (about 30 seconds)",
+            "Add salt rim to glass. Fill glass with ice",
+            "Strain margarita into glass, garnish with lime wedge"
+        ],
+        "base": "tequila",
+        "link": "https://www.foodandwine.com/recipes/mezcal-margarita"
+    },
+    {
+        "id": "d4424cf7-655a-4283-af0c-db1b1298160c",
+        "name": "Zapatero",
+        "ingredients": [
+            "1 1/2 ounces El Silencio mezcal",
+            "1/2 ounce Booker’s bourbon",
+            "2 teaspoons orgeat",
+            "1 dash Angostura bitters",
+            "1 dash Fee Brothers Aztec chocolate bitters",
+            "Garnish: cinnamon, freshly grated",
+            "Garnish: cranberry",
+            "Garnish: orange twist"
+        ],
+        "directions": [
+            "Add the mezcal, bourbon, orgeat, Angostura bitters and Aztec chocolate bitters into a mixing glass with ice and stir until well-chilled.",
+            "Strain into an Old Fashioned glass over fresh ice.",
+            "Garnish with cinnamon, cranberry and an orange twist."
+        ],
+        "base": "tequila",
+        "link": "https://www.liquor.com/recipes/the-zapatero/"
+    },
+    {
+        "id": "e0882ee1-9a12-4f80-b42f-bbaf97030811",
+        "name": "Margarita",
+        "ingredients": [
+            "2 ounces blanco tequila",
+            "1/2 ounce orange liqueur",
+            "1 ounce lime juice, freshly squeezed",
+            "1/2 ounce agave syrup",
+            "Garnish: lime wheel",
+            "Garnish: kosher salt (optional)"
+        ],
+        "directions": [
+            "Add tequila, orange liqueur, lime juice and agave syrup to a cocktail shaker filled with ice, and shake until well-chilled.",
+            "Strain into a rocks glass over fresh ice.",
+            "Garnish with a lime wheel and kosher salt rim (optional)."
+        ],
+        "base": "tequila",
+        "link": "https://www.liquor.com/recipes/margarita/"
+    },
+    {
+        "id": "864086b9-e85c-492b-8075-c7c48e92742b",
+        "name": "Tommy's Margarita",
+        "ingredients": [
+            "2 ounces blanco tequila",
+            "1 ounce lime juice, freshly squeezed",
+            "1/2 ounce agave nectar",
+            "Garnish: salt rim"
+        ],
+        "directions": [
+            "Rub the rim of a rocks glass with a lime wedge, dip the rim in salt to coat, and set aside.",
+            "Add the tequila, lime juice, and agave nectar to a shaker with ice.",
+            "Shake until well-chilled.",
+            "Strain over fresh ice into the prepared glass."
+        ],
+        "base": "tequila",
+        "link": "https://www.liquor.com/recipes/tommys-margarita/"
+    },
+    {
+        "id": "db6501bb-c204-48c3-a7cb-5074b0e570cd",
+        "name": "Margarita Negra",
+        "ingredients": [
+            "1 ounce coffee liquor",
+            "1 ounce tequila",
+            "1 ounce lime juice",
+            "1/2 ounce agave syrup"
+        ],
+        "directions": [
+            "Salt the rim of the drinking glass",
+            "Combine all ingredients in a shaker with ice, shake",
+            "Pour into glass"
+        ],
+        "base": "tequila",
+        "link": "https://www.mrblack.co/us/cocktails/margarita-negra/"
+    },
+    {
+        "id": "855df07a-fd19-469c-acc0-55d56237d285",
+        "name": "Elder Smoke",
+        "ingredients": [
+            "1 1/2 ounce blanco tequila",
+            "1/2 ounce scotch (can also use mezcal)",
+            "3/4 ounce st germain elderflower liquor",
+            "1/2 ounce lime juice",
+            "1/2 ounce grapefruit juice",
+            "1/2 ounce cranberry juice"
+        ],
+        "directions": [
+            "Put all ingredients except cranberry into a shaker",
+            "Add ice to shaker, shake for 8-10 seconds",
+            "Add ice or large cube to rocks glass, strain cocktail into glass",
+            "Pour in cranberry juice near the edge of the glass",
+            "Garnish with grapefruit peel"
+        ],
+        "base": "tequila"
     }
 ]
