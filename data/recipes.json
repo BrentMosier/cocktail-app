@@ -758,5 +758,135 @@
             "Top off with soda water"
         ],
         "base": "vodka"
+    },
+    {
+        "id": "5ea79c98-9b6c-49c5-9271-77132bfdb66b",
+        "name": "Chocolate Rye Flip",
+        "ingredients": [
+            "1.5 oz Rye Whiskey",
+            "1 oz Punt e MesSubstitute",
+            "1/3 oz campari",
+            "2/3 oz carpano classico vermouth",
+            "1/2 oz chocolate syrup",
+            "6 drops 20% saline solution",
+            "3 dashes cocoa bitters",
+            "1 whole egg"
+        ],
+        "directions": [
+            "Add ingredients to shaker with ice, shake 10 seconds",
+            "Strain into glass and garnish with orange twist"
+        ],
+        "base": "whiskey",
+        "tags": ["flip"]
+    },
+    {
+        "id": "3018ee4d-0a38-4ef4-9b61-8cffa7289784",
+        "name": "Spiced Apple Flip",
+        "ingredients": [
+            "2 oz ale (Kentucky vanilla barrel cream ale)",
+            "1 oz bourbon",
+            "1/2 oz amaretto",
+            "1/2 oz agave nectar",
+            "1 teaspoon apple butter",
+            "1 whole egg",
+            "Garnish: cinnamon"
+        ],
+        "directions": [
+            "Add the ale, bourbon, amaretto, agave nectar, apple butter, and whole egg into a shaker. Dry shake vigorously",
+            "Add ice and shake very hard until well chilled and frothy",
+            "Strain into a rocks glass",
+            "Top with grated cinnamon"
+        ],
+        "base": "whiskey",
+        "tags": ["flip"]
+    },
+    {
+        "id": "c825144d-05e1-4f4a-ae8f-147c8540613b",
+        "name": "Limoncello Whiskey Sour",
+        "ingredients": [
+            "1.5 oz Whiskey",
+            "1 oz Limoncello",
+            "1/2 oz lemon juice juice from about 1/2 lemon",
+            "Splash club soda",
+            "Garnish: 1 cocktail cherries",
+            "Garnish: 1 lemon wedge"
+        ],
+        "directions": [
+            "Fill a cocktail shaker with ice.",
+            "Add the whiskey, limoncello, and fresh lemon juice to the shaker",
+            "Shake well until the mixture is well-chilled.",
+            "Strain the mixture into a rocks glass filled with ice.",
+            "Add a splash of club soda on top.",
+            "Garnish with a maraschino cherry and a lemon wedge."
+        ],
+        "base": "whiskey",
+        "tags": ["limoncello"]
+    },
+    {
+        "id": "e148b78d-96b3-496d-aabf-b533382e4800",
+        "name": "Limoncello Moscow Mule",
+        "ingredients": [
+            "7 fresh mint leaves",
+            "1.5 oz Limoncello",
+            "1 oz vodka",
+            "1/2 oz lime juice",
+            "3 oz ginger beer",
+            "Additional mint leaves and a lime wedge for garnish optional"
+        ],
+        "directions": [
+            "Muddle the mint in a shaker",
+            "Add the Limoncello, vodka, and lime juice to the shaker with ice. Shake.",
+            "Pour the mixture into a Moscow Mule mug or a highball glass and top it with ginger beer.",
+            "Garnish with an additional mint leaf and a wedge of lime."
+        ],
+        "base": "vodka",
+        "tags": ["limoncello"]
+    },
+    {
+        "id": "845bbb81-6c5a-432d-a409-67b3b721ea55",
+        "name": "Limoncello Martini",
+        "ingredients": [
+            "1 1/2 oz vodka",
+            "1 oz limoncello",
+            "3/4 oz fresh lemon juice",
+            "1/4-1/2 oz simple syrup (as needed)"
+        ],
+        "directions": [
+            "Combine vodka, lemon juice, limoncello, and simple syrup in a shaker with ice.",
+            "Shake and double strain into a chilled coupe glass. Garnish with a lemon twist."
+        ],
+        "base": "vodka",
+        "tags": ["limoncello"]
+    },
+    {
+        "id": "893dcadf-a15b-4f2a-8a95-05d75c00d5bf",
+        "name": "Limoncello Margarita",
+        "ingredients": [
+            "2 oz tequila",
+            "2 oz limoncello",
+            "1 oz lemon juice",
+            "Simple syrup (as needed)"
+        ],
+        "directions": [
+            "Run a lemon slice all around the rim of your glass. Dip the glass rim into the salt, coating well.",
+            "Add the tequila, limoncello, lemon juice and syrup into your shaker with ice and shake",
+            "Strain the ice and pour into your prepared glass"
+        ],
+        "base": "tequila",
+        "tags": ["limoncello"]
+    },
+    {
+        "id": "3d641900-05b3-4237-96df-9dea5e499b73",
+        "name": "Peanut Butter Apple Slice",
+        "ingredients": [
+            "1 ½ oz Applie Pie moonshine",
+            "½ oz peanut butter whiskey"
+        ],
+        "directions": [
+            "Pour ingredients to a shaker with ice, shake to combine",
+            "Pour into a glass over small ice"
+        ],
+        "base": "whiskey",
+        "tags": ["moonshine"]
     }
 ]
