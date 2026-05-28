@@ -4,7 +4,7 @@
         "name": "Old Fashioned",
         "ingredients": [
             "2 oz bourbon",
-            "1 ounce simple syrup",
+            "1 oz simple syrup",
             "2 dashes angostura bitters",
             "2 dashes orange bitters"
         ],
@@ -17,11 +17,7 @@
     {
         "id": "01269507-ebcf-4153-a69f-0e97db616e02",
         "name": "Maple Bourbon Sour",
-        "ingredients": [
-            "2 oz bourbon",
-            "1 ounce maple syrup",
-            "1 ounce lemon juice"
-        ],
+        "ingredients": ["2 oz bourbon", "1 oz maple syrup", "1 oz lemon juice"],
         "directions": [
             "Combine ingredients in shaker with ice, stir until chilled",
             "Strain into rocks glass over a large ice cube"
@@ -33,9 +29,9 @@
         "name": "Whiskey Sour",
         "ingredients": [
             "2 oz bourbon",
-            "3/4 ounce lemon juice, freshly squeezed",
-            "1/2 ounce simple syrup",
-            "1/2 ounce egg white (optional)",
+            "3/4 oz lemon juice, freshly squeezed",
+            "1/2 oz simple syrup",
+            "1/2 oz egg white (optional)",
             "Garnish: Angostura bitters"
         ],
         "directions": [
@@ -52,8 +48,8 @@
         "name": "Amaretto Sour",
         "ingredients": [
             "1 1/2 oz amaretto liqueur",
-            "3/4 ounce cask-proof bourbon",
-            "1 ounce lemon juice, freshly squeezed",
+            "3/4 oz cask-proof bourbon",
+            "1 oz lemon juice, freshly squeezed",
             "1/2 oz simple syrup",
             "1 egg white",
             "Garnish: lemon twist",
@@ -73,8 +69,8 @@
         "name": "Gold Rush",
         "ingredients": [
             "2 oz bourbon",
-            "3/4 ounce lemon juice",
-            "3/4 ounce honey syrup"
+            "3/4 oz lemon juice",
+            "3/4 oz honey syrup"
         ],
         "directions": [
             "Combine ingredients in shaker with ice, stir until chilled",
@@ -88,8 +84,8 @@
         "name": "Brown Derby",
         "ingredients": [
             "2 oz bourbon",
-            "1 ounce grapefruit juice",
-            "1/2 ounce honey syrup"
+            "1 oz grapefruit juice",
+            "1/2 oz honey syrup"
         ],
         "directions": [
             "Combine ingredients in shaker with ice, stir until chilled",
@@ -102,7 +98,7 @@
         "id": "86844906-3bb1-4426-b90e-adf9cd30e54f",
         "name": "Spiced Manhattan",
         "ingredients": [
-            "1 1/2 ounce apple cinnamon bourbon",
+            "1 1/2 oz apple cinnamon bourbon",
             "1/2 sweet vermouth",
             "2-4 dashes Angostura bitters",
             "1 luxardo cherry",
@@ -224,7 +220,7 @@
         "name": "S'mores Old Fashioned",
         "ingredients": [
             "2 oz rye",
-            ".75 ounce marshmallow simple syrup",
+            ".75 oz marshmallow simple syrup",
             "4 dashes chocolate bitters"
         ],
         "directions": [
@@ -272,9 +268,9 @@
         "name": "I'm on Fire",
         "ingredients": [
             "2 dashes Cholula hot sauce",
-            "1 ounce pineapple juice",
-            "1/2 ounce lime juice",
-            "3/4 ounce honey syrup (1:1, honey:water)",
+            "1 oz pineapple juice",
+            "1/2 oz lime juice",
+            "3/4 oz honey syrup (1:1, honey:water)",
             "2 oz mezcal",
             "Garnish: ancho chili powder"
         ],
@@ -291,7 +287,7 @@
         "name": "Oaxaca Old Fashioned",
         "ingredients": [
             "1 1/2 oz El Tesoro reposado tequila",
-            "1/2 ounce Del Maguey San Luis Del Rio mezcal",
+            "1/2 oz Del Maguey San Luis Del Rio mezcal",
             "2 dashes Angostura bitters",
             "2 dashes orange bitters",
             "1 barspoon agave nectar",
@@ -310,7 +306,7 @@
         "name": "Mezcal Paloma",
         "ingredients": [
             "2 oz mezcal",
-            "1/2 ounce lime juice, freshly squeezed",
+            "1/2 oz lime juice, freshly squeezed",
             "4 oz grapefruit soda, to top ",
             "Tajín, for rim (salt is fine)",
             "Garnish: lime wedge"
@@ -329,8 +325,8 @@
         "name": "Mezcal Margarita",
         "ingredients": [
             "1 1/2 oz mezcal",
-            "3/4 ounce fresh lime juice, peel reserved",
-            "3/4 ounce triple sec",
+            "3/4 oz fresh lime juice, peel reserved",
+            "3/4 oz triple sec",
             "Salt, for rimming glasses",
             "Lime wedge, for garnish"
         ],
@@ -347,7 +343,7 @@
         "name": "Zapatero",
         "ingredients": [
             "1 1/2 oz El Silencio mezcal",
-            "1/2 ounce Booker’s bourbon",
+            "1/2 oz Booker’s bourbon",
             "2 teaspoons orgeat",
             "1 dash Angostura bitters",
             "1 dash Fee Brothers Aztec chocolate bitters",
@@ -368,9 +364,9 @@
         "name": "Margarita",
         "ingredients": [
             "2 oz blanco tequila",
-            "1/2 ounce orange liqueur",
-            "1 ounce lime juice, freshly squeezed",
-            "1/2 ounce agave syrup",
+            "1/2 oz orange liqueur",
+            "1 oz lime juice, freshly squeezed",
+            "1/2 oz agave syrup",
             "Garnish: lime wheel",
             "Garnish: kosher salt (optional)"
         ],
@@ -387,8 +383,8 @@
         "name": "Tommy's Margarita",
         "ingredients": [
             "2 oz blanco tequila",
-            "1 ounce lime juice, freshly squeezed",
-            "1/2 ounce agave nectar",
+            "1 oz lime juice, freshly squeezed",
+            "1/2 oz agave nectar",
             "Garnish: salt rim"
         ],
         "directions": [
@@ -404,10 +400,10 @@
         "id": "db6501bb-c204-48c3-a7cb-5074b0e570cd",
         "name": "Margarita Negra",
         "ingredients": [
-            "1 ounce coffee liquor",
-            "1 ounce tequila",
-            "1 ounce lime juice",
-            "1/2 ounce agave syrup"
+            "1 oz coffee liquor",
+            "1 oz tequila",
+            "1 oz lime juice",
+            "1/2 oz agave syrup"
         ],
         "directions": [
             "Salt the rim of the drinking glass",
@@ -421,12 +417,12 @@
         "id": "855df07a-fd19-469c-acc0-55d56237d285",
         "name": "Elder Smoke",
         "ingredients": [
-            "1 1/2 ounce blanco tequila",
-            "1/2 ounce scotch (can also use mezcal)",
-            "3/4 ounce st germain elderflower liquor",
-            "1/2 ounce lime juice",
-            "1/2 ounce grapefruit juice",
-            "1/2 ounce cranberry juice"
+            "1 1/2 oz blanco tequila",
+            "1/2 oz scotch (can also use mezcal)",
+            "3/4 oz st germain elderflower liquor",
+            "1/2 oz lime juice",
+            "1/2 oz grapefruit juice",
+            "1/2 oz cranberry juice"
         ],
         "directions": [
             "Put all ingredients except cranberry into a shaker",
@@ -440,11 +436,7 @@
     {
         "id": "1331b84c-5e0d-432a-bb97-36871352fe31",
         "name": "Bees Knees",
-        "ingredients": [
-            "2 oz gin",
-            "3/4 ounce lemon juice",
-            "1/2 ounce honey syrup"
-        ],
+        "ingredients": ["2 oz gin", "3/4 oz lemon juice", "1/2 oz honey syrup"],
         "directions": [
             "Add ingredients to cocktail shaker with ice and shake well",
             "Pour into glass over ice"
@@ -457,8 +449,8 @@
         "name": "Lavender Love Cocktail",
         "ingredients": [
             "2 oz gin",
-            "3/4 ounce lemon juice",
-            "1/2 ounce lavender syrup",
+            "3/4 oz lemon juice",
+            "1/2 oz lavender syrup",
             "Dash vanilla extract",
             "1/4 cup seltzer"
         ],
@@ -474,8 +466,8 @@
         "name": "Lavender Tom Collins",
         "ingredients": [
             "2 oz gin",
-            "1 ounce lemon juice",
-            "1/2 ounce lavender syrup",
+            "1 oz lemon juice",
+            "1/2 oz lavender syrup",
             "Seltzer"
         ],
         "directions": [
@@ -487,7 +479,7 @@
     {
         "id": "a59ff793-8080-4507-9fd3-22fc4af010f0",
         "name": "Gin Buck",
-        "ingredients": ["2 oz gin", "Ginger ale", "1/2 ounce lemon juice"],
+        "ingredients": ["2 oz gin", "Ginger ale", "1/2 oz lemon juice"],
         "directions": [
             "Add gin and lemon juice to a tall glass",
             "Fill glass with ice, top with ginger ale, stir"
@@ -577,11 +569,7 @@
     {
         "id": "80c36ad3-8946-47fe-9cbf-8c01e4464d21",
         "name": "Spiced Rum Apple Cider Cocktail",
-        "ingredients": [
-            "2 oz rum",
-            "4 oz apple cider",
-            "1/4 ounce maple syrup"
-        ],
+        "ingredients": ["2 oz rum", "4 oz apple cider", "1/4 oz maple syrup"],
         "directions": [
             "Add all ingredients to a shaker with ice, shake until chilled",
             "Strain into a glass with ice"
@@ -593,7 +581,7 @@
         "name": "Dark and Stormy",
         "ingredients": [
             "2 oz dark rum",
-            "1/2 ounce lime juice",
+            "1/2 oz lime juice",
             "Ginger beer (about 5 oz)"
         ],
         "directions": [
@@ -607,7 +595,7 @@
         "name": "Maple Old Fashioned",
         "ingredients": [
             "2 oz dark rum",
-            "1/2 ounce maple syrup",
+            "1/2 oz maple syrup",
             "2 dashes angostura bitters"
         ],
         "directions": [
@@ -703,5 +691,72 @@
             "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
         ],
         "base": "rum"
+    },
+    {
+        "id": "f0413b65-4221-44c5-bf20-40a381d2e441",
+        "name": "Chocolate White Russian",
+        "ingredients": [
+            "2 oz vodka",
+            "1 oz coffee liquor",
+            "Chocolate milk (Fairlife)"
+        ],
+        "directions": ["Add ingredients to a glass with ice, stir"],
+        "base": "vodka"
+    },
+    {
+        "id": "e9260516-bf7f-430d-a6c9-076caafb1db0",
+        "name": "Moscow Mule",
+        "ingredients": [
+            "2 oz vodka",
+            "1/2 oz lime juice, freshly squeezed",
+            "3 oz ginger beer, chilled",
+            "Garnish: lime wheel"
+        ],
+        "directions": [
+            "Fill a Moscow Mule mug (or highball glass) with ice, then add the vodka and lime juice.",
+            "Top with the ginger beer.",
+            "Garnish with a lime wheel."
+        ],
+        "base": "vodka"
+    },
+    {
+        "id": "61cf17a4-68e8-432a-a866-96bc5209bdca",
+        "name": "French Martini",
+        "ingredients": [
+            "1 1/2 oz Vodka",
+            "1/2 oz Chambord",
+            "1 1/2 oz pineapple juice"
+        ],
+        "directions": [
+            "Add ingredients to shaker with ice, shake to combine and chill",
+            "Strain into glass"
+        ],
+        "base": "vodka"
+    },
+    {
+        "id": "e6a390fd-9610-47e1-9bca-4715fee1f831",
+        "name": "Bay Breeze",
+        "ingredients": [
+            "2 oz Vodka",
+            "4 oz pineapple juice",
+            "1 1/2 oz cranberry juice"
+        ],
+        "directions": [
+            "Add ingredients to shaker with ice, shake to combine and chill",
+            "Strain into glass"
+        ],
+        "base": "vodka"
+    },
+    {
+        "id": "2ca226ba-722b-47a6-b283-6097908d1576",
+        "name": "Mind Eraser",
+        "ingredients": ["2 oz Vodka", "2 oz coffee liquor", "2 oz soda water"],
+        "directions": [
+            "Add ice to a glass",
+            "Pour in coffee liquor",
+            "Slowly pour in vodka",
+            "Top off with soda water"
+        ],
+        "base": "vodka"
     }
 ]
