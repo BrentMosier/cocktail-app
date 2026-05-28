@@ -3,7 +3,7 @@
         "id": "ac5be986-30a9-424d-ab8b-cb57b1de585f",
         "name": "Old Fashioned",
         "ingredients": [
-            "2 ounces bourbon",
+            "2 oz bourbon",
             "1 ounce simple syrup",
             "2 dashes angostura bitters",
             "2 dashes orange bitters"
@@ -18,7 +18,7 @@
         "id": "01269507-ebcf-4153-a69f-0e97db616e02",
         "name": "Maple Bourbon Sour",
         "ingredients": [
-            "2 ounces bourbon",
+            "2 oz bourbon",
             "1 ounce maple syrup",
             "1 ounce lemon juice"
         ],
@@ -32,7 +32,7 @@
         "id": "31fe69a9-f938-4b26-a87d-ba566b9dd6ee",
         "name": "Whiskey Sour",
         "ingredients": [
-            "2 ounces bourbon",
+            "2 oz bourbon",
             "3/4 ounce lemon juice, freshly squeezed",
             "1/2 ounce simple syrup",
             "1/2 ounce egg white (optional)",
@@ -51,7 +51,7 @@
         "id": "43aa783f-174b-4acc-a7c5-366166a26d15",
         "name": "Amaretto Sour",
         "ingredients": [
-            "1 1/2 ounces amaretto liqueur",
+            "1 1/2 oz amaretto liqueur",
             "3/4 ounce cask-proof bourbon",
             "1 ounce lemon juice, freshly squeezed",
             "1/2 oz simple syrup",
@@ -72,7 +72,7 @@
         "id": "f97a8739-b06f-4588-ac91-24e953f16a3d",
         "name": "Gold Rush",
         "ingredients": [
-            "2 ounces bourbon",
+            "2 oz bourbon",
             "3/4 ounce lemon juice",
             "3/4 ounce honey syrup"
         ],
@@ -87,7 +87,7 @@
         "id": "594e23cb-e172-42fc-97c7-d78c127722d8",
         "name": "Brown Derby",
         "ingredients": [
-            "2 ounces bourbon",
+            "2 oz bourbon",
             "1 ounce grapefruit juice",
             "1/2 ounce honey syrup"
         ],
@@ -155,7 +155,7 @@
         "name": "The Tender Knob",
         "ingredients": [
             "1 1/2 oz bourbon",
-            "2 ounces hard apple cider",
+            "2 oz hard apple cider",
             "3/4 oz agave nectar",
             "1 pinch cinnamon",
             "2 thin apple slices (1/8 inch wide)"
@@ -223,7 +223,7 @@
         "id": "dd3c8d9a-284f-48da-a58f-94faeae3ae5e",
         "name": "S'mores Old Fashioned",
         "ingredients": [
-            "2 ounces rye",
+            "2 oz rye",
             ".75 ounce marshmallow simple syrup",
             "4 dashes chocolate bitters"
         ],
@@ -275,7 +275,7 @@
             "1 ounce pineapple juice",
             "1/2 ounce lime juice",
             "3/4 ounce honey syrup (1:1, honey:water)",
-            "2 ounces mezcal",
+            "2 oz mezcal",
             "Garnish: ancho chili powder"
         ],
         "directions": [
@@ -290,7 +290,7 @@
         "id": "3dc26e12-a765-49c3-82cd-4c1460e5627b",
         "name": "Oaxaca Old Fashioned",
         "ingredients": [
-            "1 1/2 ounces El Tesoro reposado tequila",
+            "1 1/2 oz El Tesoro reposado tequila",
             "1/2 ounce Del Maguey San Luis Del Rio mezcal",
             "2 dashes Angostura bitters",
             "2 dashes orange bitters",
@@ -309,9 +309,9 @@
         "id": "3953cb59-0fed-402c-8bf1-0acbb1dde717",
         "name": "Mezcal Paloma",
         "ingredients": [
-            "2 ounces mezcal",
+            "2 oz mezcal",
             "1/2 ounce lime juice, freshly squeezed",
-            "4 ounces grapefruit soda, to top ",
+            "4 oz grapefruit soda, to top ",
             "Tajín, for rim (salt is fine)",
             "Garnish: lime wedge"
         ],
@@ -328,7 +328,7 @@
         "id": "922e47a4-51af-4dd5-af99-8c69aa01d744",
         "name": "Mezcal Margarita",
         "ingredients": [
-            "1 1/2 ounces mezcal",
+            "1 1/2 oz mezcal",
             "3/4 ounce fresh lime juice, peel reserved",
             "3/4 ounce triple sec",
             "Salt, for rimming glasses",
@@ -346,7 +346,7 @@
         "id": "d4424cf7-655a-4283-af0c-db1b1298160c",
         "name": "Zapatero",
         "ingredients": [
-            "1 1/2 ounces El Silencio mezcal",
+            "1 1/2 oz El Silencio mezcal",
             "1/2 ounce Booker’s bourbon",
             "2 teaspoons orgeat",
             "1 dash Angostura bitters",
@@ -367,7 +367,7 @@
         "id": "e0882ee1-9a12-4f80-b42f-bbaf97030811",
         "name": "Margarita",
         "ingredients": [
-            "2 ounces blanco tequila",
+            "2 oz blanco tequila",
             "1/2 ounce orange liqueur",
             "1 ounce lime juice, freshly squeezed",
             "1/2 ounce agave syrup",
@@ -386,7 +386,7 @@
         "id": "864086b9-e85c-492b-8075-c7c48e92742b",
         "name": "Tommy's Margarita",
         "ingredients": [
-            "2 ounces blanco tequila",
+            "2 oz blanco tequila",
             "1 ounce lime juice, freshly squeezed",
             "1/2 ounce agave nectar",
             "Garnish: salt rim"
@@ -441,7 +441,7 @@
         "id": "1331b84c-5e0d-432a-bb97-36871352fe31",
         "name": "Bees Knees",
         "ingredients": [
-            "2 ounces gin",
+            "2 oz gin",
             "3/4 ounce lemon juice",
             "1/2 ounce honey syrup"
         ],
@@ -456,7 +456,7 @@
         "id": "5a69f853-7571-4284-a5aa-6940f226205b",
         "name": "Lavender Love Cocktail",
         "ingredients": [
-            "2 ounces gin",
+            "2 oz gin",
             "3/4 ounce lemon juice",
             "1/2 ounce lavender syrup",
             "Dash vanilla extract",
@@ -473,7 +473,7 @@
         "id": "909bf983-c134-4562-a797-18d47996e9c3",
         "name": "Lavender Tom Collins",
         "ingredients": [
-            "2 ounces gin",
+            "2 oz gin",
             "1 ounce lemon juice",
             "1/2 ounce lavender syrup",
             "Seltzer"
@@ -487,7 +487,7 @@
     {
         "id": "a59ff793-8080-4507-9fd3-22fc4af010f0",
         "name": "Gin Buck",
-        "ingredients": ["2 ounces gin", "Ginger ale", "1/2 ounce lemon juice"],
+        "ingredients": ["2 oz gin", "Ginger ale", "1/2 ounce lemon juice"],
         "directions": [
             "Add gin and lemon juice to a tall glass",
             "Fill glass with ice, top with ginger ale, stir"
@@ -559,5 +559,149 @@
         ],
         "base": "gin",
         "link": "https://www.liquor.com/army-navy-cocktail-recipe-5225039"
+    },
+    {
+        "id": "65e15e0b-a82f-4caf-b49c-817b4ad12666",
+        "name": "Pina Colada",
+        "ingredients": [
+            "2 oz rum",
+            "2 oz pineapple juice",
+            "1 1/2 oz cream of coconut"
+        ],
+        "directions": [
+            "Add all ingredients to a shaker with ice, shake until chilled",
+            "Strain into a glass with ice"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "80c36ad3-8946-47fe-9cbf-8c01e4464d21",
+        "name": "Spiced Rum Apple Cider Cocktail",
+        "ingredients": [
+            "2 oz rum",
+            "4 oz apple cider",
+            "1/4 ounce maple syrup"
+        ],
+        "directions": [
+            "Add all ingredients to a shaker with ice, shake until chilled",
+            "Strain into a glass with ice"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "31bbc6f1-317d-4c93-96d3-c4fc468136f6",
+        "name": "Dark and Stormy",
+        "ingredients": [
+            "2 oz dark rum",
+            "1/2 ounce lime juice",
+            "Ginger beer (about 5 oz)"
+        ],
+        "directions": [
+            "Add rum and lime juice to a tall glass with ice",
+            "Top with ginger beer"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "6477acf5-4ac9-43ee-a049-56413f7c9475",
+        "name": "Maple Old Fashioned",
+        "ingredients": [
+            "2 oz dark rum",
+            "1/2 ounce maple syrup",
+            "2 dashes angostura bitters"
+        ],
+        "directions": [
+            "Add rum, maple syrup, and bitters to mixing glass with ice, stir until chilled",
+            "Strain into a chilled cocktail glass, garnish with an orange twist"
+        ],
+        "base": "rum",
+        "link": "https://www.liquor.com/recipes/maple-old-fashioned/"
+    },
+    {
+        "id": "a0fc7507-1d37-45b7-bb1c-9567568c6aef",
+        "name": "Sinister Suggestion",
+        "ingredients": [
+            "1 1/4 oz spiced rum",
+            "1/2 oz mezcal",
+            "1/2 oz grand marnier",
+            "1/3 oz cinnamon syrup",
+            "4 dashes cocoa bitters",
+            "6 drops saline solution"
+        ],
+        "directions": [
+            "Add all ingredients to mixing glass with ice. Stir until chilled",
+            "Serve in rocks glass over cube"
+        ],
+        "base": "rum",
+        "link": "https://www.liquor.com/recipes/maple-old-fashioned/"
+    },
+    {
+        "id": "203e5830-e579-493d-836c-17b720704335",
+        "name": "The Beaten Trail - V1",
+        "ingredients": [
+            "2 oz aged rum",
+            "3/4 oz amaretto",
+            "1/3 oz rich honey syrup",
+            "Pinch of salt",
+            "3 dashes angostura cocoa bitters"
+        ],
+        "directions": [
+            "Add all ingredients to mixing glass and stir",
+            "Add ice to glass and stir to chill",
+            "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "059de673-7db1-447e-b6fb-fd3926077da0",
+        "name": "The Beaten Trail - V2",
+        "ingredients": [
+            "1 1/2 oz white rum (preferably Maggie's Farm Hidden Harbor)",
+            "1.0 oz amaretto",
+            "1/3 oz rich honey syrup",
+            "Pinch of salt",
+            "3 dashes angostura cocoa bitters"
+        ],
+        "directions": [
+            "Add all ingredients to mixing glass and stir",
+            "Add ice to glass and stir to chill",
+            "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "d0040215-c694-4412-a0c1-02e72c14c95e",
+        "name": "The Beaten Trail - V3",
+        "ingredients": [
+            "1.0 oz white rum (preferably Maggie's Farm Hidden Harbor)",
+            "1.0 oz aged rum",
+            "1.0 oz amaretto",
+            "1/3 oz rich honey syrup",
+            "Pinch of salt",
+            "3 dashes angostura cocoa bitters"
+        ],
+        "directions": [
+            "Add all ingredients to mixing glass and stir",
+            "Add ice to glass and stir to chill",
+            "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
+        ],
+        "base": "rum"
+    },
+    {
+        "id": "0e7a7f7f-68dc-4f02-a800-21ee8e6e44df",
+        "name": "The Beaten Trail - V4",
+        "ingredients": [
+            "2 oz unrefined coconut oil washed white rum",
+            "1/2 oz amaretto",
+            "1/3 oz rich honey syrup",
+            "Pinch of salt",
+            "3 dashes angostura cocoa bitters"
+        ],
+        "directions": [
+            "Add all ingredients to mixing glass and stir",
+            "Add ice to glass and stir to chill",
+            "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
+        ],
+        "base": "rum"
     }
 ]
