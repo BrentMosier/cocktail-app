@@ -186,7 +186,7 @@
         "name": "Sazerac",
         "ingredients": [
             "2 oz Rye Whiskey",
-            "1 sugar cube (or .25 oz simple syrup)",
+            "1 sugar cube (or 1/4 oz simple syrup)",
             "4-6 dashes Peychaud’s bitters",
             "Absinthe (for glass rinse)",
             "Lemon peel or twist (garnish)"
@@ -220,7 +220,7 @@
         "name": "S'mores Old Fashioned",
         "ingredients": [
             "2 oz rye",
-            ".75 oz marshmallow simple syrup",
+            "3/4 oz marshmallow simple syrup",
             "4 dashes chocolate bitters"
         ],
         "directions": [
@@ -763,7 +763,7 @@
         "id": "5ea79c98-9b6c-49c5-9271-77132bfdb66b",
         "name": "Chocolate Rye Flip",
         "ingredients": [
-            "1.5 oz Rye Whiskey",
+            "1 1/2 oz Rye Whiskey",
             "1 oz Punt e MesSubstitute",
             "1/3 oz campari",
             "2/3 oz carpano classico vermouth",
@@ -804,7 +804,7 @@
         "id": "c825144d-05e1-4f4a-ae8f-147c8540613b",
         "name": "Limoncello Whiskey Sour",
         "ingredients": [
-            "1.5 oz Whiskey",
+            "1 1/2 oz Whiskey",
             "1 oz Limoncello",
             "1/2 oz lemon juice juice from about 1/2 lemon",
             "Splash club soda",
@@ -827,7 +827,7 @@
         "name": "Limoncello Moscow Mule",
         "ingredients": [
             "7 fresh mint leaves",
-            "1.5 oz Limoncello",
+            "1 1/2 oz Limoncello",
             "1 oz vodka",
             "1/2 oz lime juice",
             "3 oz ginger beer",

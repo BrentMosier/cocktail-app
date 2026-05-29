@@ -98,7 +98,7 @@ export default function Page() {
                                 key={cocktail.id}
                                 href={`/recipes/${cocktail.id}`}
                             >
-                                <div className="border border-cyan-500 rounded-lg group p-4 my-2 relative overflow-hidden h-20">
+                                <div className="border border-cyan-500 hover:shadow-glow-cyan transition-shadow duration-500 ease-in-out rounded-lg group p-4 my-2 relative overflow-hidden h-20">
                                     <div className="flex justify-between items-center group-hover:brightness-50">
                                         <h2 className="">{cocktail.name}</h2>
                                         <div className="bg-secondary p-1 rounded">
