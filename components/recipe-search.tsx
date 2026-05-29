@@ -1,6 +1,7 @@
 "use client";
 
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { Skeleton } from "@/components/ui/skeleton";
 import { useRecipes } from "../server/recipes";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
@@ -77,9 +78,21 @@ export default function Page() {
                     </ToggleGroup>
                 </div>
                 <div className="w-full">
-                    {isLoading && <p>Loading...</p>}
+                    {isLoading && (
+                        <div className="space-y-4">
+                            <Skeleton className="h-8 w-full p-8" />
+                            <Skeleton className="h-8 w-full p-8" />
+                            <Skeleton className="h-4 w-full p-8" />
+                            <Skeleton className="h-4 w-full p-8" />
+                            <Skeleton className="h-4 w-full p-8" />
+                            <Skeleton className="h-4 w-full p-8" />
+                        </div>
+                    )}
                     {error && <p>Error: {error.message}</p>}
-                    {cocktails && cocktails.length > 0 ? (
+                    {(!cocktails || cocktails.length === 0) && !isLoading && (
+                        <div>No cocktails found</div>
+                    )}
+                    {cocktails &&
                         cocktails?.map((cocktail) => (
                             <Link
                                 key={cocktail.id}
@@ -109,10 +122,7 @@ export default function Page() {
                                     </div>
                                 </div>
                             </Link>
-                        ))
-                    ) : (
-                        <p>No cocktails found.</p>
-                    )}
+                        ))}
                 </div>
             </main>
         </div>
