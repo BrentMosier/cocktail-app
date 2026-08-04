@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 //get recipe by id
 //post recipe
 import { promises as fs } from "fs";
