@@ -11,8 +11,8 @@ export default function RecipeDetails({
     const { data: cocktail } = useRecipe(resolvedParams.slug);
 
     return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center py-32 px-16 gap-4 bg-white dark:bg-black sm:items-start">
+        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans bg-linear-to-tr from-white dark:from-black to-cyan-200 dark:to-cyan-950">
+            <main className="flex flex-1 w-full max-w-3xl flex-col items-center py-32 px-16 gap-4 sm:items-start">
                 <div>Svg image of cocktail</div>
                 <div className="w-full">
                     <p className="text-4xl text-center underline font-bold">

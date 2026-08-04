@@ -45,33 +45,45 @@ export default function Page() {
                         value={selectedBase}
                         onValueChange={setSelectedBase}
                     >
-                        <ToggleGroupItem value="gin" aria-label="Toggle gin">
+                        <ToggleGroupItem
+                            value="gin"
+                            aria-label="Toggle gin"
+                            className="border-violet-500"
+                        >
                             Gin
                         </ToggleGroupItem>
-                        <ToggleGroupItem value="rum" aria-label="Toggle rum">
+                        <ToggleGroupItem
+                            value="rum"
+                            aria-label="Toggle rum"
+                            className="border-red-500"
+                        >
                             Rum
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="tequila"
                             aria-label="Toggle tequila"
+                            className="border-lime-500"
                         >
                             Tequila
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="whiskey"
                             aria-label="Toggle whiskey"
+                            className="border-amber-500"
                         >
                             Whiskey
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="vodka"
                             aria-label="Toggle vodka"
+                            className="border-slate-500"
                         >
                             Vodka
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="other"
                             aria-label="Toggle other"
+                            className="border"
                         >
                             Other
                         </ToggleGroupItem>
