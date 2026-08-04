@@ -21,13 +21,17 @@ export const fetchRecipes = async ({
     //     `http://localhost:3000/api/recipes?limit=${limit}&page=${page}&query=${query}&base=${formattedBase}`,
     // );
     // Automatically switch between Vercel production and local host
-        const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
-            ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-            : 'http://localhost:3000';
+        // const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        //     ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+        //     : 'http://localhost:3000';
 
-        // If calling from a Client Component, a relative path `/api/recipes...` works perfectly too
+        // // If calling from a Client Component, a relative path `/api/recipes...` works perfectly too
+        // const response = await fetch(
+        //     `${baseUrl}/api/recipes?limit=${limit}&page=${page}&query=${query}&base=${formattedBase}`,
+    // );
+    // Using a relative path eliminates CORS because the origin always matches perfectly
         const response = await fetch(
-            `${baseUrl}/api/recipes?limit=${limit}&page=${page}&query=${query}&base=${formattedBase}`,
+            `/api/recipes?limit=${limit}&page=${page}&query=${query}&base=${formattedBase}`,
         );
     const data = await response.json();
     return data as Recipe[];
@@ -49,14 +53,18 @@ export const useRecipes = ({
 export const fetchRecipe = async (id: string): Promise<Recipe> => {
     // const response = await fetch(`http://localhost:3000/api/recipes/${id}`);
     // Automatically switch between Vercel production and local host
-        const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
-            ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-            : 'http://localhost:3000';
+        // const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        //     ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+        //     : 'http://localhost:3000';
 
-        // If calling from a Client Component, a relative path `/api/recipes...` works perfectly too
-        const response = await fetch(
-            `${baseUrl}/api/recipes/${id}`,
-        );
+        // // If calling from a Client Component, a relative path `/api/recipes...` works perfectly too
+        // const response = await fetch(
+        //     `${baseUrl}/api/recipes/${id}`,
+    // );
+    // Using a relative path eliminates CORS because the origin always matches perfectly
+    const response = await fetch(
+        `/api/recipes/${id}`,
+    );
     const data = await response.json();
     return data as Recipe;
 };
