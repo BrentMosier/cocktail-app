@@ -419,7 +419,7 @@
         "ingredients": [
             "1 1/2 oz blanco tequila",
             "1/2 oz scotch (can also use mezcal)",
-            "3/4 oz st germain elderflower liquor",
+            "3/4 oz st germain elderflower liqueur",
             "1/2 oz lime juice",
             "1/2 oz grapefruit juice",
             "1/2 oz cranberry juice"
@@ -551,6 +551,20 @@
         ],
         "base": "gin",
         "link": "https://www.liquor.com/army-navy-cocktail-recipe-5225039"
+    },
+    {
+        "id": "7212b8dc-2aa2-4718-b93e-030071c52651",
+        "name": "The Gin Paloma",
+        "ingredients": [
+            "2 oz gin",
+            "1 oz elderflower liqueur",
+            "4 oz grapefruit soda, to top"
+        ],
+        "directions": [
+            "Add gin and elderflower liquor to a glass with ice",
+            "Top with the grapefruit soda, wait a few seconds for ingredients to combine"
+        ],
+        "base": "gin"
     },
     {
         "id": "65e15e0b-a82f-4caf-b49c-817b4ad12666",
