@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
     /* config options here */
     output: "export", //enables static exports for github pages hosting
     basePath: "/cocktail-app", //slug of my repo
+    trailingSlash: true, // Adds a trailing slash, converting /api/recipes to /api/recipes/index.txt or index.json
     images: {
       unoptimized: true
     },
