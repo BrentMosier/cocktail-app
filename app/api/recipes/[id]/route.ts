@@ -6,6 +6,23 @@ import path from "path";
 import { Recipe } from "../../../lib/definitions";
 import { NextRequest, NextResponse } from "next/server";
 
+// 1. Tell Next.js all the possible IDs at build time so it can export them
+export async function generateStaticParams() {
+    try {
+        const filePath = path.join(process.cwd(), "data", "recipes.json");
+        const fileData = await fs.readFile(filePath, "utf8");
+        const recipes = JSON.parse(fileData);
+
+        // Return an array of objects matching the dynamic segment [id]
+        return recipes.map((recipe: Recipe) => ({
+            id: recipe.id,
+        }));
+    } catch (error) {
+        console.error("Failed to generate static params for recipes:", error);
+        return [];
+    }
+}
+
 //"route handlers" in nextjs
 export async function GET(
     request: NextRequest,
