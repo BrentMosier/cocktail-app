@@ -1,10 +1,12 @@
 export const dynamic = 'force-static';
 //get recipe by id
 //post recipe
-import { promises as fs } from "fs";
-import path from "path";
+// import { promises as fs } from "fs";
+// import path from "path";
 import { Recipe } from "../../../lib/definitions";
 import { NextRequest, NextResponse } from "next/server";
+
+import recipes from "@/data/recipes.json";
 
 //"route handlers" in nextjs
 export async function GET(
@@ -14,12 +16,14 @@ export async function GET(
     const { id } = await params;
     try {
         //point to the recipe.json file
-        const filePath = path.join(process.cwd(), "data", "recipes.json");
-        //load file data
-        const fileData = await fs.readFile(filePath, "utf8");
-        //make it js friendly
-        const recipes = JSON.parse(fileData);
-        const recipe = recipes.find((r: Recipe) => r.id === id);
+        // const filePath = path.join(process.cwd(), "data", "recipes.json");
+        // //load file data
+        // const fileData = await fs.readFile(filePath, "utf8");
+        // //make it js friendly
+        // const recipes = JSON.parse(fileData);
+
+        // const recipe = recipes.find((r: Recipe) => r.id === id);
+        const recipe = (recipes as Recipe[]).find((r: Recipe) => r.id === id);
 
         if (!recipe) {
             return NextResponse.json(
