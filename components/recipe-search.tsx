@@ -25,6 +25,15 @@ export default function Page() {
         base: selectedBase,
     });
 
+    const colorMap = {
+        gin: "bg-violet-800",
+        rum: "bg-red-800",
+        tequila: "bg-lime-800",
+        whiskey: "bg-amber-800",
+        vodka: "bg-slate-800",
+        other: "bg-accent"
+    }
+
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
             <main className="flex flex-1 w-full max-w-3xl flex-col items-center py-32 px-16 bg-white dark:bg-black sm:items-start">
@@ -48,35 +57,35 @@ export default function Page() {
                         <ToggleGroupItem
                             value="gin"
                             aria-label="Toggle gin"
-                            className="border-violet-500"
+                            className="border-violet-500 data-pressed:bg-violet-800"
                         >
                             Gin
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="rum"
                             aria-label="Toggle rum"
-                            className="border-red-500"
+                            className="border-red-500 data-pressed:bg-red-800"
                         >
                             Rum
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="tequila"
                             aria-label="Toggle tequila"
-                            className="border-lime-500"
+                            className="border-lime-500 data-pressed:bg-lime-800"
                         >
                             Tequila
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="whiskey"
                             aria-label="Toggle whiskey"
-                            className="border-amber-500"
+                            className="border-amber-500 data-pressed:bg-amber-800"
                         >
                             Whiskey
                         </ToggleGroupItem>
                         <ToggleGroupItem
                             value="vodka"
                             aria-label="Toggle vodka"
-                            className="border-slate-500"
+                            className="border-slate-500 data-pressed:bg-slate-800"
                         >
                             Vodka
                         </ToggleGroupItem>
@@ -113,7 +122,7 @@ export default function Page() {
                                 <div className="border border-cyan-500 hover:shadow-glow-cyan transition-shadow duration-500 ease-in-out rounded-lg group p-4 my-2 relative overflow-hidden h-20">
                                     <div className="flex justify-between items-center group-hover:brightness-50">
                                         <h2 className="">{cocktail.name}</h2>
-                                        <div className="bg-secondary p-1 rounded">
+                                        <div className={`${colorMap[cocktail.base]} p-1 rounded`}>
                                             {cocktail.base}
                                         </div>
                                     </div>
