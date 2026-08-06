@@ -902,5 +902,21 @@
         ],
         "base": "whiskey",
         "tags": ["moonshine"]
+    },
+    {
+        "id": "22932deb-b8a3-45e2-8662-f8812f7240f1",
+        "name": "Maximilian Affair",
+        "ingredients": [
+            "1 oz Mezcal",
+            "1 oz elderflower liqueur",
+            "½ oz sweet vermouth",
+            "1/4 cup lemon juice"
+        ],
+        "directions": [
+            "Pour ingredients to a shaker with ice, shake to combine",
+            "Pour into a glass over small ice"
+        ],
+        "base": "tequila",
+        "link": "https://www.diffordsguide.com/cocktails/recipe/14827/maximilian-affair"
     }
 ]
