@@ -36,7 +36,7 @@ export default function Page() {
 
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center py-32 px-16 bg-white dark:bg-black sm:items-start">
+            <main className="flex flex-1 w-full max-w-3xl flex-col items-center py-8 px-4 lg:px-16 bg-white dark:bg-black sm:items-start">
                 <div className="w-full">
                     <Input
                         type="text"
@@ -45,7 +45,7 @@ export default function Page() {
                         placeholder="Search recipes..."
                     />
                     <ToggleGroup
-                        className="mt-4 flex justify-between w-full"
+                        className="mt-4 mb-2 flex flex-wrap gap-4 justify-between w-full"
                         size="lg"
                         defaultValue={[]}
                         variant="outline"
@@ -111,7 +111,7 @@ export default function Page() {
                     )}
                     {error && <p>Error: {error.message}</p>}
                     {(!cocktails || cocktails.length === 0) && !isLoading && (
-                        <div>No cocktails found</div>
+                        <div className="flex justify-center py-4 text-gray-500">No cocktails found</div>
                     )}
                     {cocktails &&
                         cocktails?.map((cocktail) => (
