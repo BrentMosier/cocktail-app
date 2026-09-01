@@ -45,8 +45,11 @@ export default function RootLayout({
                             <Link className="m-2 hover:underline" href="/">
                                 Home
                             </Link>
-                            <Link className="hover:underline" href="/recipes">
+                            <Link className="mr-2 hover:underline" href="/recipes">
                                 Recipes
+                            </Link>
+                            <Link className="hover:underline" href="/menu">
+                                Menu
                             </Link>
                         </div>
                         <ModeToggle />

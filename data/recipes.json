@@ -12,7 +12,8 @@
             "Combine ingredients in shaker with ice, stir until chilled",
             "Strain into rocks glass over a large ice cube"
         ],
-        "base": "whiskey"
+        "base": "whiskey",
+        "description": "A booze forward, sweet, stirred classic"
     },
     {
         "id": "01269507-ebcf-4153-a69f-0e97db616e02",
@@ -22,14 +23,15 @@
             "Combine ingredients in shaker with ice, stir until chilled",
             "Strain into rocks glass over a large ice cube"
         ],
-        "base": "whiskey"
+        "base": "whiskey",
+        "description": "Sweet, sour, and easy to drink, if a whiskey sour and old fashioned had a baby"
     },
     {
         "id": "31fe69a9-f938-4b26-a87d-ba566b9dd6ee",
         "name": "Whiskey Sour",
         "ingredients": [
             "2 oz bourbon",
-            "3/4 oz lemon juice, freshly squeezed",
+            "3/4 oz lemon juice",
             "1/2 oz simple syrup",
             "1/2 oz egg white (optional)",
             "Garnish: Angostura bitters"
@@ -49,7 +51,7 @@
         "ingredients": [
             "1 1/2 oz amaretto liqueur",
             "3/4 oz cask-proof bourbon",
-            "1 oz lemon juice, freshly squeezed",
+            "1 oz lemon juice",
             "1/2 oz simple syrup",
             "1 egg white",
             "Garnish: lemon twist",
@@ -118,7 +120,7 @@
             "1 1/4 oz bourbon",
             "3/4 oz St. Germain elderflower liqueur",
             "1/2 oz lemon juice",
-            "3-5 oz ginger beer",
+            "5 oz ginger beer",
             "8 dashes angostura bitters"
         ],
         "directions": [
@@ -126,7 +128,8 @@
             "Top with ginger beer",
             "Top with bitters"
         ],
-        "base": "whiskey"
+        "base": "whiskey",
+        "description": "Refreshing, a little spicy, and easy to drink"
     },
     {
         "id": "4a102e83-02e7-4d5a-8272-51eba8091a7f",
@@ -179,7 +182,8 @@
             "Combine ingredients in shaker with ice, shake until chilled",
             "Strain into rocks glass"
         ],
-        "base": "whiskey"
+        "base": "whiskey",
+        "description": "Booze forward, pairing fruity and a little chocolatey without being overly sweet"
     },
     {
         "id": "40413194-3110-407a-9233-80812137b47a",
@@ -198,7 +202,8 @@
             "Strain mix into drinking glass without ice",
             "Garnish with lemon peel"
         ],
-        "base": "whiskey"
+        "base": "whiskey",
+        "description": "Boozy, whiskey forward with a little licorice kick"
     },
     {
         "id": "abc88118-1be8-479f-b414-cdbb80a9e50c",
@@ -280,7 +285,8 @@
             "Garnish with ancho chili powder"
         ],
         "base": "tequila",
-        "link": "https://punchdrink.com/recipes/im-on-fire/"
+        "link": "https://punchdrink.com/recipes/im-on-fire/",
+        "description": "Sweet, spicy, and fruity, perfect for a summer night"
     },
     {
         "id": "3dc26e12-a765-49c3-82cd-4c1460e5627b",
@@ -306,9 +312,9 @@
         "name": "Mezcal Paloma",
         "ingredients": [
             "2 oz mezcal",
-            "1/2 oz lime juice, freshly squeezed",
-            "4 oz grapefruit soda, to top ",
-            "Tajín, for rim (salt is fine)",
+            "1/2 oz lime juice",
+            "4 oz grapefruit soda",
+            "Tajín",
             "Garnish: lime wedge"
         ],
         "directions": [
@@ -318,7 +324,8 @@
             "Garnish with a lime wedge."
         ],
         "base": "tequila",
-        "link": "https://www.liquor.com/mezcal-paloma-cocktail-recipe-7484747"
+        "link": "https://www.liquor.com/mezcal-paloma-cocktail-recipe-7484747",
+        "description": "Light and refreshing cocktail, a lot of citrus with a hint of smoke"
     },
     {
         "id": "922e47a4-51af-4dd5-af99-8c69aa01d744",
@@ -347,7 +354,7 @@
             "2 teaspoons orgeat",
             "1 dash Angostura bitters",
             "1 dash Fee Brothers Aztec chocolate bitters",
-            "Garnish: cinnamon, freshly grated",
+            "Garnish: cinnamon",
             "Garnish: cranberry",
             "Garnish: orange twist"
         ],
@@ -365,7 +372,7 @@
         "ingredients": [
             "2 oz blanco tequila",
             "1/2 oz orange liqueur",
-            "1 oz lime juice, freshly squeezed",
+            "1 oz lime juice",
             "1/2 oz agave syrup",
             "Garnish: lime wheel",
             "Garnish: kosher salt (optional)"
@@ -376,14 +383,15 @@
             "Garnish with a lime wheel and kosher salt rim (optional)."
         ],
         "base": "tequila",
-        "link": "https://www.liquor.com/recipes/margarita/"
+        "link": "https://www.liquor.com/recipes/margarita/",
+        "description": "Simple classic, citrus forward and easy to drink"
     },
     {
         "id": "864086b9-e85c-492b-8075-c7c48e92742b",
         "name": "Tommy's Margarita",
         "ingredients": [
             "2 oz blanco tequila",
-            "1 oz lime juice, freshly squeezed",
+            "1 oz lime juice",
             "1/2 oz agave nectar",
             "Garnish: salt rim"
         ],
@@ -411,7 +419,8 @@
             "Pour into glass"
         ],
         "base": "tequila",
-        "link": "https://www.mrblack.co/us/cocktails/margarita-negra/"
+        "link": "https://www.mrblack.co/us/cocktails/margarita-negra/",
+        "description": "A bright and citrus forward cocktail with extra depth"
     },
     {
         "id": "855df07a-fd19-469c-acc0-55d56237d285",
@@ -442,7 +451,8 @@
             "Pour into glass over ice"
         ],
         "base": "gin",
-        "link": "https://www.foodandwine.com/recipes/bees-knees"
+        "link": "https://www.foodandwine.com/recipes/bees-knees",
+        "description": "Light, sweet, and refreshing. A classic Prohibition-era cocktail"
     },
     {
         "id": "5a69f853-7571-4284-a5aa-6940f226205b",
@@ -652,7 +662,8 @@
             "Add ice to glass and stir to chill",
             "Pour into glass over ice cube, and float 3-5 drops of cocoa bitters"
         ],
-        "base": "rum"
+        "base": "rum",
+        "description": "Boozy and nutty cocktail inspired by trail mix"
     },
     {
         "id": "059de673-7db1-447e-b6fb-fd3926077da0",
@@ -722,7 +733,7 @@
         "name": "Moscow Mule",
         "ingredients": [
             "2 oz vodka",
-            "1/2 oz lime juice, freshly squeezed",
+            "1/2 oz lime juice",
             "3 oz ginger beer, chilled",
             "Garnish: lime wheel"
         ],
@@ -910,7 +921,7 @@
             "1 oz Mezcal",
             "1 oz elderflower liqueur",
             "½ oz sweet vermouth",
-            "1/4 cup lemon juice"
+            "1/4 oz lemon juice"
         ],
         "directions": [
             "Pour ingredients to a shaker with ice, shake to combine",
@@ -918,5 +929,49 @@
         ],
         "base": "tequila",
         "link": "https://www.diffordsguide.com/cocktails/recipe/14827/maximilian-affair"
+    },
+    {
+        "id": "eb65db91-149e-443e-95ae-17654571f6fc",
+        "name": "Pomegranate Limeade",
+        "ingredients": [
+            "1 oz Grenadine",
+            "1 oz lime juice",
+            "5 oz sparkling water"
+        ],
+        "directions": [
+            "Pour grenadine and lime juice into a glass with ice",
+            "Top with sparkling water, gently stir to mix"
+        ],
+        "base": "Other"
+    },
+    {
+        "id": "eb65db91-149e-443e-95ae-17654571f6fc",
+        "name": "Pomegranate Limeade",
+        "ingredients": [
+            "1 oz Grenadine",
+            "1 oz lime juice",
+            "5 oz sparkling water"
+        ],
+        "directions": [
+            "Pour grenadine and lime juice into a glass with ice",
+            "Top with sparkling water, gently stir to mix"
+        ],
+        "base": "Other"
+    },
+    {
+        "id": "d9f67a53-aeb0-410d-960f-f419e29f0435",
+        "name": "Honey Ginger Fizz",
+        "ingredients": [
+            "1/2 oz honey syrup",
+            "1 oz lemon juice",
+            "5 oz ginger beer"
+        ],
+        "directions": [
+            "Pour honey syrup and lemon juice into a glass with ice",
+            "Top with ginger beer, gently stir to mix"
+        ],
+        "base": "Other",
+        "tags": ["non-alcoholic"],
+        "description": "Sweet and slightly spicy, refreshing alcohol free drink"
     }
 ]

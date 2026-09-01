@@ -18,4 +18,5 @@ export interface Recipe {
     base: "gin" | "rum" | "tequila" | "whiskey" | "vodka" | "other";
     link?: string;
     tags?: string[];
+    description?: string;
 }
