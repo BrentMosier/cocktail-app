@@ -945,20 +945,6 @@
         "base": "Other"
     },
     {
-        "id": "eb65db91-149e-443e-95ae-17654571f6fc",
-        "name": "Pomegranate Limeade",
-        "ingredients": [
-            "1 oz Grenadine",
-            "1 oz lime juice",
-            "5 oz sparkling water"
-        ],
-        "directions": [
-            "Pour grenadine and lime juice into a glass with ice",
-            "Top with sparkling water, gently stir to mix"
-        ],
-        "base": "Other"
-    },
-    {
         "id": "d9f67a53-aeb0-410d-960f-f419e29f0435",
         "name": "Honey Ginger Fizz",
         "ingredients": [
