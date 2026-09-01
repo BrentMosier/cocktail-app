@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { fetchRecipes } from "../../server/recipes";
 import {
     QueryClient,
